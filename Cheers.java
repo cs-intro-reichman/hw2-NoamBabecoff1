@@ -15,9 +15,9 @@ public class Cheers {
                         System.out.println("Give me a "+ currentChar + ": "+currentChar +"!");
                 }
             }
-            System.err.println("What does that spell?");
+            System.out.println("What does that spell?");
             for (int i = 0; i < num; i++) {
-                System.err.println(str+"!!!");
+                System.out.println(str+"!!!");
             }
         }
 }

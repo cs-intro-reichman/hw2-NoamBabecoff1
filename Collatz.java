@@ -6,14 +6,13 @@ public class Collatz {
 
         for (int seed = 1; seed <= N; seed++) {
             int num = seed;
-            int steps = 1; // count the seed as the first term
+            int steps = 1; 
 
             if (mode.equals("v")) {
-                System.out.print(num + " "); // print the seed first
+                System.out.print(num + " "); 
             }
 
-            // Use do-while so we always perform at least one Collatz step,
-            // even when the seed is 1 (this produces 1 -> 4 -> 2 -> 1).
+            
             do {
                 if (num % 2 == 0) {
                     num = num / 2;
